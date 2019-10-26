@@ -1,0 +1,135 @@
+.header {
+    width: 100%;
+    height: 800px;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: -450px -500px;
+
+    .navbar {
+        width: 960px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding-top: 50px;
+
+        .logo {
+
+            h1 {
+                font-size: 48px;
+                text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+                color: #ffffff;
+                letter-spacing: 1px;
+            }
+
+            .gradient-text {
+                font-size: 48px;
+                text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+                background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #0B2349;
+                margin-left: -5px;
+            }
+
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            margin: 12px 0 12px 100px;
+
+            li {
+                list-style-type: none;
+                padding: 0 0 0 50px;
+
+                a {
+                    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+                    color: #ffffff;
+                    font-size: 24px;
+                    line-height: 33.72px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, .2);
+        ;
+        margin: 120px auto;
+        display: flex;
+
+        .infoNav {
+            width: 960px;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+
+        }
+
+        .s {
+            width: 22px;
+            height: 34px;
+            margin: 180px 100px;
+        }
+
+        .infoText {
+            width: 520px;
+            height: 231px;
+            margin: 90px 0;
+
+            h1 {
+                color: #fefefe;
+                font-size: 60px;
+                line-height: 36px;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+            }
+
+            h2 {
+                color: #edbfff;
+                font-size: 32px;
+                line-height: 36px;
+                text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+            }
+
+            p {
+                text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 300
+            }
+
+        }
+
+        .image {
+            z-index: 1;
+
+            .first {
+
+                img {
+                    margin: -350px 0 0 160px;
+                    z-index: 5;
+                }
+
+                .play {
+                    margin: -227px 0 0 62px;
+                }
+            }
+
+            .second {
+
+                img {
+                    margin: 50px 0 0 90px;
+                    z-index: 4;
+                }
+
+            }
+        }
+    }
+}

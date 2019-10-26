@@ -1,0 +1,42 @@
+@import 'header';
+@import 'main';
+@import 'footer';
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-SemiBold);
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'LeagueGothic-Regular';
+    src: url(fonts/leaguegothic-regular-webfont.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+
+h1,
+h2,
+h3,
+li {
+    font-family: "LeagueGothic-Regular";
+    font-weight: normal;
+}
+
+p {
+    font-family: "Open Sans";
+}
+
