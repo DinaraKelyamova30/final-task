@@ -16,12 +16,12 @@
                 <h1>PINGBULL <span class="gradient-text">ER</span> </h1>
             </div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Dolor Sit Amet</a></li>
+                <li id="home"><a href="#">Home</a></li>
+                <li id="about"><a href="#">About</a></li>
+                <li id="blog"><a href="#">Blog</a></li>
+                <li id="products"><a href="#">Products</a></li>
+                <li id="loremIpsum"><a href="#">Lorem Ipsum</a></li>
+                <li id="dolor"><a href="#">Dolor Sit Amet</a></li>
             </ul>
         </nav>
         <div class="info">
@@ -45,28 +45,23 @@
                         <img src="css/img/iPhone_4_copy.png" alt="phoneCopy">
                     </div>
                     <div class="first">
-                        <img src="css/img/iPhone_4.png" alt="phone">
-                        <div class="play">
-                            <img src="css/img/3-layers.png" alt="3">
-                        </div>
+                        <img class="iphone" src="css/img/iPhone_4.png" alt="phone">
                     </div>
-                </div>
-                <div class="pagination">
-                    <span></span>
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
                 </div>
             </div>
             <img class="s" src="css/img/Shape_14_copy_2.png" alt="2">
         </div>
-    </header>
-    <main class="main">
+        <div class="dots">
+            <div class="source dots"></div>
+        </div>
+    </header> 
+ <main class="main">
         <div class="container">
             <div class="contentAbout">
                 <div class="block">
                     <div class="blockAbout">
-                        <img src="css/img/Layer_34.png" alt="34">
+                        <img class="show" src="css/img/Layer_34.png" alt="34">
+                        <img  class="none" src="css/img/Layer_34.png" alt="34">
                         <div class="about">
                             <h1>ABOUT OUR COMPANY</h1>
                             <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices
@@ -75,7 +70,8 @@
                         </div>
                     </div>
                     <div class="blockAbout">
-                        <img src="css/img/Layer_35.png" alt="34">
+                        <img  class="show" src="css/img/Layer_35.png" alt="34">
+                        <img  class="none" src="css/img/Layer_34.png" alt="34">
                         <div class="about">
                             <h1>ABOUT OUR COMPANY</h1>
                             <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices
@@ -84,7 +80,8 @@
                         </div>
                     </div>
                     <div class="blockAbout">
-                        <img src="css/img/Layer_36.png" alt="34">
+                        <img  class="show" src="css/img/Layer_36.png" alt="34">
+                        <img  class="none" src="css/img/Layer_34.png" alt="34">
                         <div class="about">
                             <h1>ABOUT OUR COMPANY</h1>
                             <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices
@@ -98,54 +95,64 @@
                 <div class="mainInfo">
                     <div class="infoMain">
                         <div class="startsHere">
-                            <!-- <img src="css/img/source_of_icons.png" alt="source"> -->
-                            <h1>PINGBULLER<span class="pink">STARTS HERE</span></h1>
-                            <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices
-                                posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero
-                                pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis
-                                neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.</p>
-                        </div>
-                        <div class="pagination">
-                            <span></span>
-                            <span class="active"></span>
-                            <span></span>
-                            <span></span>
+                            <div class="source">
+                                <div class="portret"></div>
+                            </div>
+                            <div class="block">
+                                <div>
+                                    <h1>PINGBULLER<span class="pink">STARTS HERE</span></h1>
+                                    <p>"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
+                                        ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae
+                                        lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar
+                                        bibendum
+                                        in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim
+                                        non eu
+                                        nisl."</p>
+                                    <div class="dots">
+                                        <div class="source dots"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="infoMain">
-                        <div>
+                        <div class="size">
                             <h1>RECENT UPDARES</h1>
                             <div class="news">
                                 <div class="first">
-                                    <img>
-                                    <div class="ingoNews">
+                                    <div class="source dots1">
+                                    </div>
+                                    <div class="infoNews">
                                         <p><b>Nunc turpis neque, feugiat eget</b></p>
                                         <p>Posted by Admin on March 13 2012 in Recent News</p>
                                     </div>
                                 </div>
                                 <div class="first">
-                                    <img>
-                                    <div class="ingoNews">
+                                    <div class="source dots2">
+                                    </div>
+                                    <div class="infoNews">
                                         <p><b>Nunc turpis neque, feugiat eget</b></p>
                                         <p>Posted by Admin on March 13 2012 in Category</p>
                                     </div>
                                 </div>
                                 <div class="first">
-                                    <img>
-                                    <div class="ingoNews">
+                                    <div class="source dots3">
+                                    </div>
+                                    <div class="infoNews">
                                         <p><b>Nunc turpis neque, feugiat eget</b></p>
                                         <p>Posted by Admin on March 13 2012 in Blog Updates</p>
                                     </div>
                                 </div>
                             </div>
-                            <h3>READ MORE HERE</h3>
+                            <h3 class="h">READ MORE HERE</h3>
+                            <h3 class="size768px">MORE BLOG POSTS</h3>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
             <div class="color">
-            <div class="partners">
+                <div class="partners">
                     <div class="img1"></div>
                     <div class="img2"></div>
                     <div class="img3"></div>
@@ -155,12 +162,12 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main> 
     <footer class="footer">
         <div class="lastSection">
             <div class="section">
                 <div class="infoLast">
-                    <div>
+                    <div class="hide">
                         <div class="pig">
                             <h1>PINGBULL <span class="style">ER</span> </h1>
                         </div>
@@ -171,10 +178,26 @@
                             pul-
                         </p>
                     </div>
+                    <div class="none">
+                        <h1>NEWS CATEGORIES</h1>
+                        <p>Nunc turpis neque, feugiat eget eleif- end et, lacinia non neque. Praesent rhoncus ultrices
+                            posuere.
+                            Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque
+                            pulvinar.
+                            Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                    </div>
                 </div>
                 <div class="infoLast">
-                    <div>
+                    <div class="hide">
                         <h1>RECENT COMMENTS</h1>
+                        <p>Nunc turpis neque, feugiat eget eleif- end et, lacinia non neque. Praesent rhoncus ultrices
+                            posuere.
+                            Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque
+                            pulvinar.
+                            Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                    </div>
+                    <div class=none>
+                        <h1>NEWS CATEGORIES</h1>
                         <p>Nunc turpis neque, feugiat eget eleif- end et, lacinia non neque. Praesent rhoncus ultrices
                             posuere.
                             Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque
@@ -209,7 +232,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> 
 </body>
 
 </html>

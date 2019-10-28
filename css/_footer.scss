@@ -3,7 +3,6 @@
     .lastSection {
         height: 342px;
         background-color: #ececec;
-        box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.4);
 
         .section {
             width: 960px;
@@ -17,6 +16,10 @@
                 width: 960px;
                 display: flex;
                 align-content: space-around;
+
+                .none{
+                    display: none;
+                }
                 
                 .pig{
                     font-size: 22px;
@@ -55,7 +58,6 @@
         width: 100%;
         height: 100%;
         background-image: url(img/bg_copy.png);
-        z-index: 1;
 
         .menuLast {
             width: 960px;
@@ -81,6 +83,9 @@
                         text-transform: uppercase;
                     }
 
+                    a:hover {
+                        border-bottom: 3px solid #edbfff;
+                    }
                 }
 
             }
