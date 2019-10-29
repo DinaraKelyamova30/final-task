@@ -1062,7 +1062,7 @@ p {
   }
   .main .container .contentMain .mainInfo .infoMain .size .news .first .infoNews p {
     width: 240px;
-    height: 20px;
+    height: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1289,7 +1289,7 @@ p {
   }
   .main .container .contentMain .mainInfo .infoMain .size .news .first .infoNews p {
     width: 200px;
-    height: 20px;
+    height: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
