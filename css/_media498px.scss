@@ -1,0 +1,270 @@
+@media screen and (max-width: 498px) {
+
+    .header {
+
+        height: 600px;
+
+        .navbar {
+            width: 300px;
+
+            .logo {
+                margin-top: 70px;
+
+                h1 {
+                    margin: auto;
+                    width: 300px;
+                    text-align: center;
+                }
+            }
+
+            .menu {
+                margin: 20px auto;
+            }
+        }
+
+        .info {
+            height: 0;
+            margin: 50px 0 180px 0;
+
+            .infoNav {
+                width: 300px;
+            }
+
+            .s {
+                width: 22px;
+                height: 34px;
+                margin: 50px auto;
+            }
+
+            .infoText {
+                width: 201px;
+                margin: 47px auto;
+            }
+
+            .image {
+                display: none;
+            }
+
+        }
+
+
+
+    }
+
+    .main {
+        .container {
+            .contentAbout {
+                width: 100%;
+
+                .block {
+                    width: 300px;
+
+                    .blockAbout {
+                        width: 300px;
+                        margin: 5px auto;
+
+                        .about {
+                            width: 270px;
+
+                            p {
+                                width: 220px;
+                                height: 70px;
+                                font-size: 16px;
+                            }
+
+                            h3 {
+                                width: 100px;
+                                padding-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contentMain {
+                height: 760px;
+
+                .mainInfo {
+                    width: 300px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .infoMain {
+                        width: 320px;
+
+                        h1 {
+                            font-size: 24px;
+                        }
+
+                        .bigger {
+                            font-size: 30px;
+                        }
+
+                        .size {
+                            margin: 90px auto;
+
+                            .news {
+                                height: 170px;
+
+                                .first {
+                                    height: 50px;
+                                    margin-bottom: 10px;
+
+                                    .source {
+                                        width: 55px;
+                                        height: 60px;
+                                        margin: 0 6px 15px 0;
+                                    }
+
+                                    .infoNews {
+
+                                        p {
+                                            width: 200px;
+                                            height: 17px;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+
+                                        }
+
+                                        .b {
+                                            width: 135px;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                        }
+                                    }
+
+
+                                }
+
+                            }
+                        }
+
+                    }
+
+
+                    .startsHere {
+                        height: 270px;
+                        display: flex;
+                        flex-direction: row;
+
+                        .block {
+                            width: 256px;
+                            height: 272px;
+                        }
+                    }
+
+                    p {
+                        width: 190px;
+                        height: 140px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+
+                    h1 {
+                        display: flex;
+                        flex-direction: column;
+                        color: #404040;
+                        font-size: 24px;
+                        margin-bottom: 10px;
+
+                        .pink {
+                            color: #eec2ff;
+                            margin-left: 0;
+                        }
+                    }
+
+                    .size768px {
+                        display: block;
+                    }
+
+                    .size768px:hover {
+                        text-shadow: 1px 1px 8px gray;
+                    }
+
+                    .h {
+                        display: none;
+                    }
+
+                    .dots {
+                        width: 88px;
+
+                        .source {
+                            margin: 70px 0 0 0px;
+                        }
+                    }
+
+                }
+
+            }
+
+            hr {
+                border: 0.5px solid white;
+            }
+
+            .color {
+                .partners {
+                    width: 320px;
+                    height: 370px;
+                    display: flex;
+                    flex-flow: wrap;
+
+                    .img1 {
+                        height: 62px;
+                        margin: 0 20px 37px 56px;
+                    }
+
+                    .img2 {
+                        height: 65px;
+                    }
+
+                    .img3 {
+                        margin: -30px 29px 5px 60px;
+                    }
+
+                    .img4 {
+                        margin: -30px 29px 5px 20px;
+                    }
+
+                    .img5 {
+                        width: 110px;
+                        margin: 47px 8px 25px 20px;
+                    }
+
+                    .img6 {
+                        width: 110px;
+                        height: 70px;
+                        margin: 40px 8px 25px 45px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer {
+
+        .lastSection {
+            display: none;
+        }
+
+        .last {
+            background-repeat: no-repeat;
+            background-image: url(img/bg_copy1.png);
+
+            .menuLast {
+                width: 300px;
+
+                ul {
+                    display: none;
+                }
+
+                .design {
+                    p {
+                        width: 150px;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
