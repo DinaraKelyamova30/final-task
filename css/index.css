@@ -1196,7 +1196,7 @@ p {
     height: 600px;
   }
   .header .navbar {
-    width: 320px;
+    width: 300px;
   }
   .header .navbar .logo {
     margin-top: 70px;
@@ -1214,7 +1214,7 @@ p {
     margin: 50px 0 180px 0;
   }
   .header .info .infoNav {
-    width: 320px;
+    width: 300px;
   }
   .header .info .s {
     width: 22px;
@@ -1232,9 +1232,10 @@ p {
     width: 100%;
   }
   .main .container .contentAbout .block {
-    width: 320px;
+    width: 300px;
   }
   .main .container .contentAbout .block .blockAbout {
+    width: 300px;
     margin: 5px auto;
   }
   .main .container .contentAbout .block .blockAbout .about {
@@ -1253,7 +1254,7 @@ p {
     height: 760px;
   }
   .main .container .contentMain .mainInfo {
-    width: 480px;
+    width: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1263,10 +1264,16 @@ p {
             flex-direction: column;
   }
   .main .container .contentMain .mainInfo .infoMain {
-    width: 350px;
+    width: 320px;
+  }
+  .main .container .contentMain .mainInfo .infoMain h1 {
+    font-size: 24px;
+  }
+  .main .container .contentMain .mainInfo .infoMain .bigger {
+    font-size: 30px;
   }
   .main .container .contentMain .mainInfo .infoMain .size {
-    margin: 90px 0 0 76px;
+    margin: 90px auto;
   }
   .main .container .contentMain .mainInfo .infoMain .size .news {
     height: 170px;
@@ -1276,13 +1283,18 @@ p {
     margin-bottom: 10px;
   }
   .main .container .contentMain .mainInfo .infoMain .size .news .first .source {
-    width: 70px;
+    width: 55px;
     height: 60px;
     margin: 0 6px 15px 0;
   }
   .main .container .contentMain .mainInfo .infoMain .size .news .first .infoNews p {
-    width: 240px;
+    width: 200px;
     height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .main .container .contentMain .mainInfo .infoMain .size .news .first .infoNews .b {
+    width: 135px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1297,26 +1309,30 @@ p {
             flex-direction: row;
   }
   .main .container .contentMain .mainInfo .startsHere .block {
-    width: 430px;
+    width: 256px;
+    height: 272px;
   }
   .main .container .contentMain .mainInfo p {
-    overflow: visible;
+    width: 190px;
+    height: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .main .container .contentMain .mainInfo h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     color: #404040;
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 10px;
   }
   .main .container .contentMain .mainInfo h1 .pink {
     color: #eec2ff;
-    margin-left: 3px;
+    margin-left: 0;
   }
   .main .container .contentMain .mainInfo .size768px {
     display: block;
@@ -1327,26 +1343,45 @@ p {
   .main .container .contentMain .mainInfo .h {
     display: none;
   }
+  .main .container .contentMain .mainInfo .dots {
+    width: 88px;
+  }
   .main .container .contentMain .mainInfo .dots .source {
-    margin: 95px 0 0 -15px;
+    margin: 70px 0 0 0px;
+  }
+  .main .container hr {
+    border: 0.5px solid white;
   }
   .main .container .color .partners {
     width: 320px;
-    height: 380px;
+    height: 370px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
   }
+  .main .container .color .partners .img1 {
+    height: 62px;
+    margin: 0 20px 37px 56px;
+  }
   .main .container .color .partners .img2 {
-    height: 70px;
+    height: 65px;
   }
   .main .container .color .partners .img3 {
-    margin: 4px 29px 6px 60px;
+    margin: -30px 29px 5px 60px;
+  }
+  .main .container .color .partners .img4 {
+    margin: -30px 29px 5px 20px;
   }
   .main .container .color .partners .img5 {
-    width: 120px;
+    width: 110px;
+    margin: 47px 8px 25px 20px;
+  }
+  .main .container .color .partners .img6 {
+    width: 110px;
+    height: 70px;
+    margin: 40px 8px 25px 45px;
   }
   .footer .lastSection {
     display: none;
@@ -1356,7 +1391,7 @@ p {
     background-image: url(img/bg_copy1.png);
   }
   .footer .last .menuLast {
-    width: 320px;
+    width: 300px;
   }
   .footer .last .menuLast ul {
     display: none;
